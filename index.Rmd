@@ -6,6 +6,9 @@ output:
     vertical_layout: fill
     social: ["menu"]
     source_code: embed
+    theme:
+      version: 4
+      booswatch: sandstone
 ---
 
 ```{r setup, include=FALSE}
@@ -20,7 +23,7 @@ data("penguins")
 ```
 
 
-Plots
+Plots {data-navmenu="Pages"}
 =======================================================================
 
 Sidebar {.sidebar}
@@ -78,7 +81,7 @@ penguins %>% ggplot(aes(x = flipper_length_mm, fill = species))+geom_histogram()
   facet_wrap(~species)
 ```
 
-Data
+Data {data-navmenu="Pages"}
 ================================================================================
 
 ```{r}
